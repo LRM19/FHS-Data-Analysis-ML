@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from imblearn.over_sampling import SMOTE, ADASYN, SVMSMOTE 
 import seaborn as sns
 
-df = pd.read_csv(r'C:\Users\leoer\OneDrive\Desktop\Data Heart ML\framingham.csv') # Load dataframe
+df = pd.read_csv(r'file_path') # Load dataframe
 
 # DATA FILTERING
 
