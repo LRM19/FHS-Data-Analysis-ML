@@ -6,7 +6,7 @@ import sklearn as sk
 from sklearn.impute import KNNImputer
 import seaborn as sns
 
-df = pd.read_csv(r'C:\Users\leoer\OneDrive\Desktop\Data Heart ML\framingham.csv') # Load dataframe
+df = pd.read_csv(r'file_path') # Load dataframe
 
 #The dataset is a rather small subset of the FHS dataset, having 4240 observations and 16 variables. The variables are as follows:
 # sex : the gender of the observations. binary var named “male”
